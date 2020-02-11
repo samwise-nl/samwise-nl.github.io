@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Samuel Russell dotnet</title>
-    <link>https://www.samuelrussell.net/</link>
-    <description>Recent content on Samuel Russell dotnet</description>
+    <title>Posts on Samuel Russell dotnet</title>
+    <link>https://www.samuelrussell.net/posts/</link>
+    <description>Recent content in Posts on Samuel Russell dotnet</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2020 23:16:54 -0330</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 23:07:06 -0330</lastBuildDate>
     
-	<atom:link href="https://www.samuelrussell.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.samuelrussell.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>https://www.samuelrussell.net/about/</link>
-      <pubDate>Mon, 10 Feb 2020 23:16:54 -0330</pubDate>
-      
-      <guid>https://www.samuelrussell.net/about/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>My First Hugo Post</title>
