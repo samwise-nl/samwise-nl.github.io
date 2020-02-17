@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Samuel Russell dotnet</title>
+    <title>SAMUELRUSSELL.NET</title>
     <link>https://www.samuelrussell.net/</link>
-    <description>Recent content on Samuel Russell dotnet</description>
+    <description>Recent content on SAMUELRUSSELL.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Feb 2020 23:16:54 -0330</lastBuildDate>
@@ -12,12 +12,14 @@
     
     
     <item>
-      <title>About</title>
+      <title>Hey! Nice to meet you</title>
       <link>https://www.samuelrussell.net/about/</link>
       <pubDate>Mon, 10 Feb 2020 23:16:54 -0330</pubDate>
       
       <guid>https://www.samuelrussell.net/about/</guid>
-      <description></description>
+      <description>I&amp;rsquo;m Sam Russell - husband, father, software developer, avid photographer and guitarist and probably a few other descriptive terms (hopefully all positive!).
+This is my little piece of the internet where you can find some links to my online persona(s) and some of my blogs posts and tidbits that I hope to share over the coming months and years.
+Whatever your reason for visiting, I hope you find something entertaining, of interest or insightful here.</description>
     </item>
     
     <item>
