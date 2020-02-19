@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Hey! Nice to meet you</title>
+      <title>Nice to meet you</title>
       <link>https://www.samuelrussell.net/about/</link>
       <pubDate>Mon, 10 Feb 2020 23:16:54 -0330</pubDate>
       
@@ -29,7 +29,8 @@ Whatever your reason for visiting, I hope you find something entertaining, of in
       
       <guid>https://www.samuelrussell.net/posts/my-first-post/</guid>
       <description>Just going to leave this here for the time-being.
-Hugo is really super fast!</description>
+Hugo is really super fast!
+Some Code sections var s = &amp;#34;JavaScript syntax highlighting&amp;#34;; alert(s); s = &amp;#34;Python syntax highlighting&amp;#34; print s No language indicated, so no syntax highlighting. But let&amp;#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;. 1 2 3 4 5 6  const canvas = document.querySelector(&amp;#39;canvas&amp;#39;); const ctx = canvas.getContext(&amp;#39;2d&amp;#39;); const width = canvas.width = window.innerWidth; const height = canvas.height = window.</description>
     </item>
     
   </channel>
