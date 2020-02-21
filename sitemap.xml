@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.samuelrussell.net/posts/developer-hiring-dos-and-donts/</loc>
+    <lastmod>2020-02-20T21:20:04-03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samuelrussell.net/posts/</loc>
+    <lastmod>2020-02-20T21:20:04-03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samuelrussell.net/</loc>
+    <lastmod>2020-02-20T21:20:04-03:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.samuelrussell.net/about/</loc>
     <lastmod>2020-02-10T23:16:54-03:30</lastmod>
   </url>
   
   <url>
-    <loc>https://www.samuelrussell.net/</loc>
-    <lastmod>2020-02-10T23:16:54-03:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.samuelrussell.net/posts/my-first-post/</loc>
-    <lastmod>2020-02-10T23:07:06-03:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.samuelrussell.net/posts/</loc>
     <lastmod>2020-02-10T23:07:06-03:30</lastmod>
   </url>
   

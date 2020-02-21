@@ -6,10 +6,21 @@
     <description>Recent content on SAMUELRUSSELL.NET</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2020 23:16:54 -0330</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2020 21:20:04 -0330</lastBuildDate>
     
 	<atom:link href="https://www.samuelrussell.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Developer Hiring - Resume Do&#39;s and Don&#39;ts</title>
+      <link>https://www.samuelrussell.net/posts/developer-hiring-dos-and-donts/</link>
+      <pubDate>Thu, 20 Feb 2020 21:20:04 -0330</pubDate>
+      
+      <guid>https://www.samuelrussell.net/posts/developer-hiring-dos-and-donts/</guid>
+      <description>In my current role as a senior software developer, at a small start-up, I get to look over a lot of resumes - from interns, to junior devs right up to very experienced devs.
+Make it a PDF Not everyone has MS Office. PDF is near-universal and renders in browsers without plugins.
+Keep your resume to 2 pages or less I&amp;rsquo;m usually going through multiple resumes at a given time and I don&amp;rsquo;t have time.</description>
+    </item>
     
     <item>
       <title>Nice to meet you</title>
