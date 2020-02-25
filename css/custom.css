@@ -9,3 +9,7 @@ img.about-me {
     margin: 0 2rem 3rem 0;
     border-radius: 50%;
 }
+
+footer {
+  font-size: 1.3rem;
+}
