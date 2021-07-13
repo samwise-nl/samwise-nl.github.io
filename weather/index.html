@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" href="./weather-icon.png" />
+    <title>Sam's Weather App</title>
+    <style>
+      body {
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+          sans-serif;
+        color: #222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 0;
+        margin: 0;
+        backdrop-filter: blur(1px);
+      }
+      #container {
+        width: 65vw;
+        border: 1px solid rgb(167, 167, 167);
+        border-radius: 6px;
+        background-color: rgba(255, 255, 255, 0.4);
+      }
+
+      #weather-container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: flex-start;
+      }
+
+      #weather-container iframe {
+        margin: 2rem 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div style="text-align: center"><h1>Core &amp; Innovative Applications - Weather of the Day</h1></div>
+      <div id="weather-container"></div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const backgrounds = [
+          "field-hills-sky.jpg",
+          "rocks-canyon-sunset.jpg",
+          "sun-clouds-lake.jpg",
+          "sunset-clouds.jpg",
+          "toronto-skyline.jpg",
+        ];
+
+        let background = backgrounds[Math.floor(Math.random() * backgrounds.length)];
+
+        // read in query params - ex. ?bg=1&cityCodes=nl-24,ns-31,on-118,on-86,on-100,bc-97
+        let params = new URLSearchParams(window.location.search);
+        if (params.has("bg")) {
+          let userBg = parseInt(params.get("bg"), 10);
+          if (!isNaN(userBg) && userBg < backgrounds.length) {
+            background = backgrounds[userBg];
+          }
+        }
+
+        document.documentElement.style.background = `url(./backgrounds/${background})`;
+        document.documentElement.style.backgroundRepeat = "no-repeat";
+        document.documentElement.style.backgroundSize = "cover";
+        document.documentElement.style.back;
+
+        let cityCodes = ["nl-24", "ns-31", "on-118", "on-86", "on-100", "bc-97"];
+
+        let weatherContainer = document.getElementById("weather-container");
+        if (params.has("cityCodes")) {
+          // ex. cityCodes=nl-24,ns-31,on-118,on-86,on-100,bc-97
+          let userCodes = params.get("cityCodes");
+          cityCodes = userCodes.split(",");
+        }
+        cityCodes.forEach((value, index) => {
+          const cityIframe = document.createElement("iframe");
+          cityIframe.src = `https://weather.gc.ca/wxlink/wxlink.html?cityCode=${value}&amp;lang=e`;
+          cityIframe.frameBorder = "0";
+          cityIframe.width = "287px";
+          cityIframe.height = "191px";
+          weatherContainer.appendChild(cityIframe);
+        });
+      });
+    </script>
+  </body>
+</html>
