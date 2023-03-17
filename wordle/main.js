@@ -9,6 +9,7 @@ class Puzzle {
         this.rowIndex = 1;
         this.row = new Row();
         this.initEventListeners();
+        this.NUM_GUESSES = 6;
     }
 
     initEventListeners() {
@@ -46,16 +47,16 @@ class Puzzle {
         }
     }
 
-    userNotice(message) {
+    userNotice(message, timeout = 3000) {
         // TODO: work on transition - ease-in/out
         const alertEl = document.querySelector('.alert');
         alertEl.innerText = message;
         alertEl.style.display = "block";
-        setTimeout(() => { alertEl.style.display = "none"; }, 3000);
+        setTimeout(() => { alertEl.style.display = "none"; }, timeout);
     }
 
     isValidKey(key) {
-        return this.validKeys.find(val => val == key);
+        return this.validKeys.includes(key);
     }
 
     handleKeyEvent(letter) {
@@ -100,6 +101,11 @@ class Puzzle {
                     else if (this.row.isValidWord()) {
                         this.row.colorCells(this.todaysWord);
                         this.rowIndex++;
+                        if (this.rowIndex > this.NUM_GUESSES) {
+                            this.isComplete = true;
+                            this.userNotice(`Word was ${this.todaysWord}`, 6000);
+                            return;
+                        }
                         this.row.rowId = `row${this.rowIndex}`;
                         this.row.currentIndex = 1;
                     } else {
@@ -157,12 +163,9 @@ class Row {
             return this.getCurrentCell().innerText != '';
         };
         this.getUserWord = () => {
+            // ChatGPT suggestion
             const allCells = Array.from(document.querySelectorAll(`#${this.rowId} div.letter`));
-            let userWord = '';
-            allCells.forEach(e => {
-                userWord += e.innerText;
-            });
-            return userWord.toLowerCase();
+            return allCells.map(e => e.innerText).join('').toLowerCase();
         };
         this.matches = (matchWord) => {
             return this.getUserWord() == matchWord;
@@ -189,6 +192,4 @@ class Row {
     }
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    const puzzle = new Puzzle();        
-}, false);
+new Puzzle();
