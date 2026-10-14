@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on SAMUELRUSSELL.NET</title>
-    <link>https://www.samuelrussell.net/posts/</link>
-    <description>Recent content in Posts on SAMUELRUSSELL.NET</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2020 21:00:00 -0330</lastBuildDate><atom:link href="https://www.samuelrussell.net/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Resume &amp; Interview Do&#39;s and Don&#39;ts</title>
-      <link>https://www.samuelrussell.net/posts/developer-hiring-dos-and-donts/</link>
-      <pubDate>Tue, 24 Nov 2020 21:00:00 -0330</pubDate>
-      
-      <guid>https://www.samuelrussell.net/posts/developer-hiring-dos-and-donts/</guid>
-      <description>In my current role as a senior software developer/team lead I get to look over a lot of resumes - from interns, to junior coders right up to very experienced developers. Over time you see a few repeating patterns that you really wish you wouldn&amp;rsquo;t. Most of them are pretty minor in the scheme of things, but when you&amp;rsquo;re looking at dozens of resumes and you&amp;rsquo;re looking for ways to narrow the selection pool why put yourself in the reject pile?</description>
-    </item>
-    
-    <item>
-      <title>My First Hugo Post</title>
-      <link>https://www.samuelrussell.net/posts/my-first-post/</link>
-      <pubDate>Mon, 10 Feb 2020 23:07:06 -0330</pubDate>
-      
-      <guid>https://www.samuelrussell.net/posts/my-first-post/</guid>
-      <description>Just going to leave this here for the time-being.
-Hugo is really super fast!
-Some Code sections var s = &amp;#34;JavaScript syntax highlighting&amp;#34;; alert(s); s = &amp;#34;Python syntax highlighting&amp;#34; print s No language indicated, so no syntax highlighting. But let&amp;#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;/b&amp;gt;. 1 2 3 4 5 6 const canvas = document.querySelector(&amp;#39;canvas&amp;#39;); const ctx = canvas.getContext(&amp;#39;2d&amp;#39;); const width = canvas.width = window.innerWidth; const height = canvas.height = window.innerHeight; </description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Posts on SAMUELRUSSELL.NET</title>
+		<link>https://www.samuelrussell.net/posts/</link>
+		<description>Recent content in Posts on SAMUELRUSSELL.NET</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 24 Nov 2020 21:00:00 -0330</lastBuildDate>
+		
+			<atom:link href="https://www.samuelrussell.net/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Resume &amp; Interview Do&#39;s and Don&#39;ts</title>
+				<link>https://www.samuelrussell.net/posts/developer-hiring-dos-and-donts/</link>
+				<pubDate>Tue, 24 Nov 2020 21:00:00 -0330</pubDate>
+				<guid>https://www.samuelrussell.net/posts/developer-hiring-dos-and-donts/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;../../images/developer-hiring-header.jpg&#34; alt=&#34;post header&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- Image borrowed from https://medium.com/@Goldstein222/hiring-mobile-developers-and-javascript-developers-55d45d197df7 --&gt;&#xA;&lt;p&gt;In my current role as a senior software developer/team lead I get to look over a lot of resumes - from interns, to junior coders right up to very experienced developers. Over time you see a few repeating patterns that you really wish you wouldn&amp;rsquo;t. Most of them are pretty minor in the scheme of things, but when you&amp;rsquo;re looking at dozens of resumes and you&amp;rsquo;re looking for ways to narrow the selection pool why put yourself in the reject pile?!&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
